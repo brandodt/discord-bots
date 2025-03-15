@@ -1,0 +1,26 @@
+{
+  "name": "netease-account-creator-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for creating NetEase accounts",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "netease",
+    "account",
+    "creator"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "crypto": "^1.0.1",
+    "md5": "^2.3.0"
+  }
+}
